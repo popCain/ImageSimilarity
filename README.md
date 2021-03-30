@@ -4,3 +4,4 @@ Find similar images in dataset for a new image using **`Resnet50+KNN`**. In orde
 ## Resnet50(trained on imageNet)
 1. Create Resnet50 from keras without toplayer to get convolutional features(2048 dimension) as output instead of the image classification probability.  
 2. Extract the convolutional features for every images of dataset( Feature_size:[number_images, 2048] ).
+## KNN
